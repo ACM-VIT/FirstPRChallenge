@@ -6,6 +6,23 @@
   font-weight: bold;
 }
 
+#headerimage{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#countdown{
+  position: absolute;
+  margin-bottom: 0;
+  bottom: 5px;
+  text-align: center;
+  font-family: cursive;
+  width: 100%;
+  font-size: 2vw;
+  color: #ffb5ed;
+}
+
 .introduction {
   display: flex;
   justify-content: center;
