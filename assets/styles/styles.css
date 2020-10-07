@@ -1,0 +1,295 @@
+@font-face {
+  font-family: "Grotesque Black";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/BrandonGrotesque-Black.eot"),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/BrandonGrotesque-Black.ttf"),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/BrandonGrotesque-Black.woff");
+  font-weight: bold;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+}
+.ftc-image {
+  margin: 0 20%;
+}
+.acm-banner {
+  width: 100%;
+}
+.card {
+  width: 300px;
+  height: 350px;
+}
+.first-card-body > .card {
+  background: rgb(255, 254, 255);
+  padding: 15px;
+  border-radius: 87px 52px 81px 50px;
+  height: 300px;
+  width: 300px;
+  -webkit-box-shadow: -2px -1px 21px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px -1px 21px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px -1px 21px -11px rgba(0, 0, 0, 0.75);
+}
+.first-card-body > .card > .row {
+  margin: auto 0;
+}
+.f-card-body {
+  text-align: center;
+}
+.card-body {
+  text-align: center;
+  background-color: white;
+  border-radius: 12%;
+  padding-bottom: 0;
+}
+.card-img {
+  width: 7.5em;
+  height: 7.5em;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 4px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.card-message {
+  color: #a5a5a5;
+  height: 50px;
+}
+footer {
+  background-color: #072540;
+  color: #93c2db;
+  bottom: 0;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 3px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/** Rishabh **/
+.card-rishabh {
+  background: #fff;
+  border: 1px solid #eee;
+  transition: all 0.35s ease;
+  -webkit-box-shadow: -2px -1px 20px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px -1px 20px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px -1px 20px -11px rgba(0, 0, 0, 0.75);
+}
+.card-rishabh:hover {
+  border-color: #ddd;
+}
+
+.card-rishabh:hover figure {
+  transform: scale(0.6) translateY(-1.4em);
+}
+
+.card-rishabh:hover .card--title {
+  transform: translateY(-5em);
+}
+
+.card-rishabh:hover .card--description {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: 0.4s;
+}
+
+.card-rishabh:hover .card--description p {
+  opacity: 1;
+}
+
+.card-rishabh:hover .card--description hr {
+  transition-delay: 0.1s;
+  transform: scale(1, 1);
+}
+
+.card-rishabh:hover .card--social li {
+  opacity: 1;
+  transition-duration: 0.3s;
+  transition-delay: 0.1s;
+  transform: translate(0, 0) rotate(0deg);
+}
+
+.card-rishabh:hover .card--btn a {
+  background: #fbfbfb;
+  border-color: #ddd;
+}
+
+.card-rishabh:hover .card--btn .moreinfo {
+  opacity: 0;
+  transform: translateY(-50px);
+  box-shadow: 5px 5px 10px 0px rgba(55, 84, 170, 0.2),
+    -5px -5px 10px 0px rgba(255, 255, 255, 0.7),
+    inset -5px -5px 10px 0px rgba(55, 84, 170, 0.2),
+    inset 5px 5px 10px 0px rgba(255, 255, 255, 0.7);
+}
+
+.card-rishabh:hover .card--btn .fullprof {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-rishabh figure {
+  position: relative;
+  z-index: 299;
+  width: 10em;
+  height: 10em;
+  margin: 0 auto 1em;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #eee;
+  padding: 4px;
+  transform-origin: center top;
+  transition: all 0.4s ease-out;
+}
+.card-rishabh figure img {
+  width: 100%;
+  display: block;
+  border-radius: 50%;
+}
+
+.card-liner {
+  position: relative;
+  overflow: hidden;
+  padding: 2em;
+}
+
+.card--title {
+  text-align: center;
+  line-height: 1;
+  transition: all 0.4s ease-out;
+}
+
+.card--title h3 {
+  margin: 0 0 0.4em;
+  font-size: 1.4em;
+}
+
+.card--title p {
+  margin: 0 0 5em;
+  color: #a5a5a5;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 2.2px;
+}
+
+.card--description {
+  position: absolute;
+  top: 53.5%;
+  left: 9%;
+  width: 82%;
+  text-align: center;
+  padding-bottom: 0.8em;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(3em);
+  transition: all 0.02s ease-out;
+}
+
+.card--description p {
+  margin: 0 0 0.5em;
+  font-weight: 300;
+  opacity: 0;
+  transition: all 0.55s ease 0.1s;
+}
+
+.card--description hr {
+  border: none;
+  width: 3em;
+  margin: 0 auto 0.75em;
+  height: 3px;
+  background: #0a9191;
+  transform: scale(0, 1);
+  transition: all 0.4s ease-out 0.05s;
+}
+
+.card--btn {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.card--btn a {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8em;
+  color: #a5a5a5;
+  padding: 1.4em 2em;
+  border-top: 1px solid #eee;
+  letter-spacing: 0.5px;
+  transition: all 0.4s ease;
+}
+
+.card--btn a .fullprof {
+  display: block;
+  opacity: 0;
+  color: #0a9191;
+  transform: translateY(50px);
+  transition: all 0.4s ease-out;
+}
+
+.card--btn a .moreinfo {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.4em;
+  opacity: 1;
+  transition: all 0.4s ease-out;
+}
+
+.card--social {
+  position: absolute;
+  top: 3em;
+  left: 0;
+  width: 100%;
+}
+
+.card--social ul {
+  list-style: none;
+  margin: 0;
+  padding: 2em;
+  position: relative;
+}
+
+.card--social li {
+  display: block;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: all 0.02s ease-out;
+}
+
+.card--social li.twitter {
+  left: 72%;
+  transform: translate(-200%, 1em) scale(0.7);
+}
+
+.card--social li.linkedin {
+  right: 72%;
+  transform: translate(200%, 1em) scale(0.7);
+}
+
+.card--social a {
+  line-height: 2.4;
+  display: block;
+  width: 2.3em;
+  height: 2.3em;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background: #fbfbfb;
+  color: #0a9191;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+/* End of Rishabh's Profile CSS */
