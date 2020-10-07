@@ -17,6 +17,12 @@
       "image_link": "./assets/rupesh-yadav.jpeg",
       "handle": "rupeshyadav2007",
       "message": "Thanks to Hacktober Fest 2020!"
+    },
+    {
+      "name": "Anjali Kamath",
+      "image_link": "./assets/anjalikamath.png",
+      "handle": "Anjalikamath",
+      "message": "I am very excited to be a part of Hacktober Fest 2020!"
     }
   ]
 }
