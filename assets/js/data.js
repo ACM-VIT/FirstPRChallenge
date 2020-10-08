@@ -1,3 +1,9 @@
+// Follow the template and add your own profile card
+// "template": {
+//   "name": "Your Name",
+//   "image_link": "./assets/{name-of-photo.extension}",
+//   "handle": "<your-github-handle>",
+//   "message": "<your-message-to-the-community>"
 myfunction([
     {
       "name": "Saksham Jain",
