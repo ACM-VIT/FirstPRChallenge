@@ -149,6 +149,12 @@ footer {
   border-radius: 50%;
 }
 
+/* Start of Nancy's Profile Card */
+.h3-nancy {
+  text-align: center;
+}
+/* End of Nancy's Profile Card */
+
 .card-liner {
   position: relative;
   overflow: hidden;
