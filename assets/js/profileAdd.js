@@ -1,5 +1,5 @@
-$.getJSON("./data.json", (data) => {
-  let profiles = data.profiles;
+function myfunction(profiles)
+{
 
   let cardParent = document.getElementById("profile-cards");
   for (let index = 0; index < profiles.length; index += 1) {
@@ -39,4 +39,4 @@ $.getJSON("./data.json", (data) => {
       "<h1>This section is empty. You can check out other works by us.</h1>";
     cardParent.append(card);
   }
-});
+};

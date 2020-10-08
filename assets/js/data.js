@@ -1,11 +1,4 @@
-{
-  "comment": " Follow the template and add your own profile card",
-  "template": {
-    "image_link": "./assets/{name-of-photo.extension}",
-    "handle": "<your-github-handle>",
-    "message": "<your-message-to-the-community>"
-  },
-  "profiles": [
+myfunction([
     {
       "name": "Saksham Jain",
       "image_link": "./assets/saksham-jain.jpg",
@@ -19,4 +12,4 @@
       "message": "Thanks to Hacktober Fest 2020!"
     }
   ]
-}
+)
