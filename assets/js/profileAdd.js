@@ -43,5 +43,5 @@ fetch('assets/js/data.json') // fetching the data.json file
     cardParent.append(card);
   }
 }).catch(function(error) {
-  console.error(" Somethng went wrong");
+  console.error("Something went wrong");
 });
