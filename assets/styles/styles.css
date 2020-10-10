@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @font-face {
   font-family: "Grotesque Black";
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/BrandonGrotesque-Black.eot"),
@@ -149,12 +150,6 @@ footer {
   border-radius: 50%;
 }
 
-/* Start of Nancy's Profile Card */
-.h3-nancy {
-  text-align: center;
-}
-/* End of Nancy's Profile Card */
-
 .card-liner {
   position: relative;
   overflow: hidden;
@@ -299,3 +294,79 @@ footer {
   transition: all 0.3s ease;
 }
 /* End of Rishabh's Profile CSS */
+
+
+/* Start of Nancy's Profile Card */
+.card-nancy {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.div-image {
+  background-color: #01bcd4;
+  height: 40%;
+}
+
+.profile-img-nancy {
+  border-radius: 50%;
+  display: block;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 45%;
+}
+
+.h3-nancy {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.p-nancy {
+  color: grey;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.back-of-card-nancy {
+  background-color: white;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+}
+
+.card-nancy:hover .back-of-card-nancy {
+  opacity: 1;
+}
+
+.p-backCard-nancy {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  padding: 50px;
+  text-align: center;
+}
+
+.i-nancy {
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.devicon-linkedin-plain {
+  padding-left: 80px;
+}
+
+.devicon-linkedin-plain:hover {
+  opacity: 0.5
+}
+
+.devicon-github-plain {
+  padding-left: 35px;
+}
+
+.devicon-github-plain:hover {
+  opacity: 0.5
+}
+/* End of Nancy's Profile Card */
