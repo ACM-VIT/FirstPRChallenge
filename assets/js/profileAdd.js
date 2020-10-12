@@ -1,4 +1,4 @@
-$.getJSON("./data.json", (data) => {
+$.getJSON("./assets/js/data.json", (data) => {
   let profiles = data.profiles;
 
   let cardParent = document.getElementById("profile-cards");
