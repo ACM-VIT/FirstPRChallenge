@@ -1,5 +1,8 @@
-$.getJSON("./assets/js/data.json", (data) => {
-  let profiles = data.profiles;
+fetch('assets/js/data.json') // fetching the data.json file
+.then(response => response.json())   
+.then(data => {
+   
+   let profiles = data.profiles;
 
   let cardParent = document.getElementById("profile-cards");
   for (let index = 0; index < profiles.length; index += 1) {
@@ -39,4 +42,6 @@ $.getJSON("./assets/js/data.json", (data) => {
       "<h1>This section is empty. You can check out other works by us.</h1>";
     cardParent.append(card);
   }
+}).catch(function(error) {
+  console.error("Something went wrong");
 });
