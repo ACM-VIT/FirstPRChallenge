@@ -24,6 +24,12 @@
       "image_link": "./assets/pdelcogliano.jpg",
       "handle": "pdelco",
       "message": "I'm an open source newbie enjoying Hacktoberfest."
-    }    
+    },
+    {
+      "name": "Vienna Elric",
+      "image_link": "./assets/viennaelric.jpg",
+      "handle": "viennaelric",
+      "message": "I am so excited to take part in Hacktoberfest for the first time!"
+    },
   ]
 }
