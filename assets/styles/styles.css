@@ -387,3 +387,64 @@ footer {
   opacity: 0.5
 }
 /* End of Nancy's Profile Card */
+
+/* Start of Karen's Profile Card */
+.karen-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.profile {
+  width: 14em;
+  height: 14em;
+  border-radius: 50%;
+  padding: 2em;
+}
+.karen-card:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  transform: skew(2deg, 2deg);
+  z-index: -1;
+}
+.karen-card:before {
+  background: linear-gradient(315deg, #072540, #93c2db);
+}
+.karen-card .description {
+  text-align: center;
+  margin-top: 0.5em;
+}
+.karen-card .description p{
+  color: #a5a5a5;
+}
+.dark-card{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #072540;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dark-card p{
+  color: #fff;
+  font-size: 20px;
+}
+.karen-card:hover .dark-card{
+  opacity: 1;
+}
+.icons-line{
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/* End of Karen's Profile Card */
