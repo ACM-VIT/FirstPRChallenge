@@ -430,7 +430,7 @@ footer {
   opacity: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   justify-content: center;
 }
 .dark-card p{
@@ -447,4 +447,4 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
 }
-/* End of Karen's Profile Card */
+
