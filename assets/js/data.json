@@ -24,6 +24,12 @@
       "image_link": "./assets/pdelcogliano.jpg",
       "handle": "pdelco",
       "message": "I'm an open source newbie enjoying Hacktoberfest."
-    }    
+    },
+    {
+      "name": "Himanshu Bobade",
+      "image_link": "./assets/himanshu.png",
+      "handle": "himanshubobade",
+      "message": "I'm a newbie to Hacktoberfest, glad to be part of it"
+    } 
   ]
 }
